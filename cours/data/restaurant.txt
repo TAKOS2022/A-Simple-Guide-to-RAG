@@ -1,0 +1,208 @@
+1. Présentation générale du restaurant
+
+Le restaurant Le Gourmet Urbain est un restaurant de cuisine contemporaine proposant des plats faits maison à partir d’ingrédients frais.
+Le restaurant accueille des clients sur place et propose également des commandes à emporter.
+
+Objectifs principaux :
+
+garantir la sécurité alimentaire
+
+assurer une expérience client cohérente
+
+standardiser les procédures internes
+
+2. Horaires & services
+
+Lundi – Vendredi : 11h30 – 22h00
+
+Samedi : 12h00 – 23h00
+
+Dimanche : fermé
+
+Dernière prise de commande :
+
+Cuisine : 21h30 (semaine), 22h30 (samedi)
+
+Bar : 30 minutes avant la fermeture
+
+3. Menu & descriptions des plats
+3.1 Burger Gourmet
+
+Description :
+Burger composé d’un pain brioché, d’un steak de bœuf 180g, de fromage cheddar, de salade, de tomates et d’une sauce maison.
+
+Allergènes :
+
+gluten
+
+produits laitiers
+
+Substitutions autorisées :
+
+pain sans gluten (sur demande)
+
+steak végétarien
+
+Substitutions non autorisées :
+
+fromage vegan (non disponible)
+
+3.2 Salade César
+
+Description :
+Salade romaine, poulet grillé, croûtons, parmesan, sauce César.
+
+Allergènes :
+
+œufs
+
+produits laitiers
+
+gluten
+
+Note importante :
+La sauce César contient des œufs crus.
+
+3.3 Pâtes aux champignons (végétarien)
+
+Description :
+Pâtes fraîches, champignons sautés, crème, ail, persil.
+
+Allergènes :
+
+gluten
+
+produits laitiers
+
+4. Tableau des allergènes (résumé)
+
+Gluten : pains, pâtes, croûtons
+
+Œufs : sauce César, certaines sauces maison
+
+Produits laitiers : fromages, crème
+
+Fruits à coque : aucun plat du menu standard
+
+⚠️ En cas de doute, ne jamais improviser. Toujours vérifier la fiche du plat ou demander au responsable.
+
+5. Procédures – Service en salle (Front of House)
+5.1 Accueil des clients
+
+Saluer les clients dans les 30 secondes suivant leur arrivée
+
+Vérifier s’ils ont une réservation
+
+Proposer une table adaptée
+
+5.2 Prise de commande
+
+Toujours demander si le client a des allergies
+
+Répéter la commande pour validation
+
+Mentionner les substitutions possibles
+
+5.3 Gestion des plaintes
+
+En cas de plainte :
+
+Écouter sans interrompre
+
+S’excuser pour la gêne occasionnée
+
+Proposer une solution (remplacement du plat ou boisson offerte)
+
+Informer le manager si nécessaire
+
+Le personnel ne peut pas offrir un remboursement complet sans validation du manager.
+
+6. Procédures – Cuisine (Back of House)
+6.1 Températures de cuisson
+
+Bœuf : minimum 63°C
+
+Poulet : minimum 74°C
+
+Plats chauds maintenus à ≥ 60°C
+
+6.2 Conservation des aliments
+
+Produits frais : 0–4°C
+
+Produits congelés : -18°C
+
+Restes cuisinés : maximum 48 heures au réfrigérateur
+
+6.3 Hygiène
+
+Lavage des mains obligatoire toutes les 30 minutes
+
+Port de gants pour manipulation des aliments prêts à servir
+
+Nettoyage des surfaces toutes les 2 heures
+
+7. Procédures – Ouverture & fermeture
+7.1 Ouverture
+
+Allumer les équipements
+
+Vérifier les stocks
+
+Nettoyer les surfaces
+
+Préparer la caisse
+
+7.2 Fermeture
+
+Nettoyer les plans de travail
+
+Éteindre les équipements
+
+Sortir les poubelles
+
+Verrouiller les portes
+
+8. Politique de remboursement & gestes commerciaux
+
+Remplacement d’un plat autorisé sans validation
+
+Boisson offerte possible en cas d’erreur mineure
+
+Remboursement complet : manager uniquement
+
+9. Procédure en cas de rupture de stock
+
+Si un ingrédient est indisponible :
+
+Informer le client avant la commande
+
+Proposer une alternative
+
+Ne jamais promettre un délai incertain
+
+10. Onboarding – Nouveaux employés
+
+Tout nouvel employé doit :
+
+lire cette documentation
+
+être formé par un collègue senior
+
+poser des questions en cas de doute
+
+Aucune initiative personnelle ne doit être prise sur les sujets :
+
+allergènes
+
+hygiène
+
+remboursements
+
+11. Règles générales
+
+En cas d’incertitude, demander au manager
+
+Ne jamais donner une information non vérifiée
+
+La sécurité du client est prioritaire
