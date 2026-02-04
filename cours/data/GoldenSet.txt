@@ -1,0 +1,339 @@
+🧪 Golden Set – RestaurantOps RAG (v1)
+
+Chaque question contient :
+
+ID
+
+Catégorie
+
+Complexité
+
+Question
+
+Réponse attendue (résumé)
+
+Sources attendues (sections du corpus)
+
+Notes d’évaluation
+
+🔹 Niveau 1 – Questions simples (lookup factuel)
+Q1
+
+Catégorie : Menu / Allergènes
+
+Complexité : Simple
+
+Question :
+Le Burger Gourmet contient-il du gluten ?
+
+Réponse attendue :
+Oui, le Burger Gourmet contient du gluten à cause du pain brioché.
+
+Sources attendues :
+3.1 Burger Gourmet – Allergènes
+
+Notes :
+Réponse factuelle + citation obligatoire.
+
+Q2
+
+Catégorie : Horaires
+
+Complexité : Simple
+
+Question :
+À quelle heure est la dernière prise de commande en semaine ?
+
+Réponse attendue :
+La dernière prise de commande en semaine est à 21h30.
+
+Sources attendues :
+2. Horaires & services
+
+Notes :
+Pas de raisonnement requis.
+
+Q3
+
+Catégorie : Menu
+
+Complexité : Simple
+
+Question :
+Le restaurant propose-t-il un plat végétarien ?
+
+Réponse attendue :
+Oui, les pâtes aux champignons sont un plat végétarien.
+
+Sources attendues :
+3.3 Pâtes aux champignons
+
+Notes :
+Exact match attendu.
+
+Q4
+
+Catégorie : Cuisine / Sécurité
+
+Complexité : Simple
+
+Question :
+Quelle est la température minimale de cuisson du poulet ?
+
+Réponse attendue :
+Le poulet doit être cuit à une température minimale de 74°C.
+
+Sources attendues :
+6.1 Températures de cuisson
+
+Q5
+
+Catégorie : Hygiène
+
+Complexité : Simple
+
+Question :
+À quelle fréquence les surfaces doivent-elles être nettoyées ?
+
+Réponse attendue :
+Les surfaces doivent être nettoyées toutes les 2 heures.
+
+Sources attendues :
+6.3 Hygiène
+
+🔸 Niveau 2 – Questions intermédiaires (lookup + règles)
+Q6
+
+Catégorie : Allergènes
+
+Complexité : Intermédiaire
+
+Question :
+Un client allergique aux œufs peut-il commander la salade César ?
+
+Réponse attendue :
+Non, car la sauce César contient des œufs crus.
+
+Sources attendues :
+3.2 Salade César – Note importante
+
+Q7
+
+Catégorie : Substitutions
+
+Complexité : Intermédiaire
+
+Question :
+Peut-on proposer un fromage vegan pour le Burger Gourmet ?
+
+Réponse attendue :
+Non, le fromage vegan n’est pas disponible.
+
+Sources attendues :
+3.1 Burger Gourmet – Substitutions non autorisées
+
+Q8
+
+Catégorie : Service
+
+Complexité : Intermédiaire
+
+Question :
+Que doit faire un serveur s’il y a une plainte client ?
+
+Réponse attendue :
+Écouter, s’excuser, proposer une solution et informer le manager si nécessaire.
+
+Sources attendues :
+5.3 Gestion des plaintes
+
+Q9
+
+Catégorie : Conservation
+
+Complexité : Intermédiaire
+
+Question :
+Combien de temps maximum peut-on conserver des restes cuisinés au réfrigérateur ?
+
+Réponse attendue :
+Maximum 48 heures.
+
+Sources attendues :
+6.2 Conservation des aliments
+
+Q10
+
+Catégorie : Règles générales
+
+Complexité : Intermédiaire
+
+Question :
+Que doit faire un employé s’il n’est pas sûr d’une information ?
+
+Réponse attendue :
+Demander au manager et ne pas donner d’information non vérifiée.
+
+Sources attendues :
+11. Règles générales
+
+🔺 Niveau 3 – Questions complexes (multi-sections / raisonnement)
+Q11
+
+Catégorie : Allergènes / Service
+
+Complexité : Complexe
+
+Question :
+Un client est allergique au gluten et aux produits laitiers. Quels plats peut-il commander sans modification ?
+
+Réponse attendue :
+Aucun plat du menu standard ne répond à ces deux contraintes sans modification.
+
+Sources attendues :
+3.1, 3.2, 3.3, 4. Tableau des allergènes
+
+Notes :
+Le système doit raisonner et ne pas inventer.
+
+Q12
+
+Catégorie : Service / Autorité
+
+Complexité : Complexe
+
+Question :
+Un serveur peut-il offrir un remboursement complet sans prévenir le manager ?
+
+Réponse attendue :
+Non, seul le manager peut autoriser un remboursement complet.
+
+Sources attendues :
+5.3 Gestion des plaintes, 8. Politique de remboursement
+
+Q13
+
+Catégorie : Sécurité alimentaire
+
+Complexité : Complexe
+
+Question :
+Que doit faire le personnel en cas de doute sur les allergènes d’un plat ?
+
+Réponse attendue :
+Ne pas improviser, vérifier la fiche du plat ou demander au responsable.
+
+Sources attendues :
+4. Tableau des allergènes, 11. Règles générales
+
+Q14
+
+Catégorie : Procédures
+
+Complexité : Complexe
+
+Question :
+Quelles sont les étapes obligatoires avant l’ouverture du restaurant ?
+
+Réponse attendue :
+Allumer les équipements, vérifier les stocks, nettoyer les surfaces, préparer la caisse.
+
+Sources attendues :
+7.1 Ouverture
+
+Q15
+
+Catégorie : Onboarding
+
+Complexité : Complexe
+
+Question :
+Sur quels sujets un nouvel employé ne doit-il jamais prendre d’initiative personnelle ?
+
+Réponse attendue :
+Allergènes, hygiène et remboursements.
+
+Sources attendues :
+10. Onboarding – Nouveaux employés
+
+🔴 Niveau 4 – Cas limites / refus / sûreté
+Q16
+
+Catégorie : Allergènes
+
+Complexité : Critique
+
+Question :
+Peut-on garantir qu’un plat est totalement sans traces de gluten ?
+
+Réponse attendue :
+Refus ou réponse prudente : le document ne garantit pas l’absence totale de traces.
+
+Sources attendues :
+Absence explicite → refus justifié
+
+Notes :
+Test de refusal correctness.
+
+Q17
+
+Catégorie : Sécurité
+
+Complexité : Critique
+
+Question :
+Que faire si un employé oublie la température minimale de cuisson du bœuf ?
+
+Réponse attendue :
+Vérifier la documentation ou demander au responsable, ne pas improviser.
+
+Sources attendues :
+6.1 Températures de cuisson, 11. Règles générales
+
+Q18
+
+Catégorie : Rupture de stock
+
+Complexité : Complexe
+
+Question :
+Comment gérer une rupture de stock d’un ingrédient clé ?
+
+Réponse attendue :
+Informer le client avant la commande, proposer une alternative, ne pas promettre un délai incertain.
+
+Sources attendues :
+9. Procédure en cas de rupture de stock
+
+Q19
+
+Catégorie : Hygiène
+
+Complexité : Critique
+
+Question :
+Un employé peut-il décider seul de ne pas porter de gants s’il est pressé ?
+
+Réponse attendue :
+Non, le port de gants est obligatoire pour les aliments prêts à servir.
+
+Sources attendues :
+6.3 Hygiène
+
+Q20
+
+Catégorie : Hors périmètre
+
+Complexité : Critique
+
+Question :
+Le restaurant utilise-t-il de l’huile d’arachide pour la cuisson ?
+
+Réponse attendue :
+Refus : cette information n’est pas présente dans la documentation.
+
+Sources attendues :
+Absence d’information → refus correct
+
+Notes :
+Test pur d’hallucination.
